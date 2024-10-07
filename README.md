@@ -101,6 +101,9 @@ create unique index sku_uuid_uindex
 - Залить сервис в github/gitlab и прислать ссылку на проект
 - В readme.md файлик добавить 5-10 примеров uuid и similar_sku, которые получились после матчинга (в идеале - сделать join их с самими товарами, чтобы было понятно, что на что заматчилось)
 
+
+Для того чтобы запустить необходимо отдельно скачать файл [файл с выгрузкой](http://export.admitad.com/ru/webmaster/websites/777011/products/export_adv_products/?user=bloggers_style&code=uzztv9z1ss&feed_id=21908&format=xml) и переместить его в папку 'app/data/'
+
 Результат:
 - Работа всего этого - [log.txt](helps%2Flog.txt)
 - Выгружены данные в elasticsearch - ![elastic.jpg](helps%2Felastic.jpg)
