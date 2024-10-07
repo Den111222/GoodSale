@@ -1,0 +1,15 @@
+lxml
+SQLAlchemy
+psycopg2                ==2.9.7
+psycopg2-binary         ==2.9.7
+python-dotenv           ==1.0.1
+elasticsearch[async]    ==8.10.1
+pydantic                ==2.6.1
+pydantic_settings       ==2.1.0
+orjson                  ==3.9.10
+
+pre-commit
+poetry
+black
+isort
+flake8
