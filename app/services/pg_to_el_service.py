@@ -102,7 +102,6 @@ class ElasticsearchLoader:
     def doc_generator(self, data, index_name):
         documents = []
         for doc in data:
-            # TODO сделать pydantic схему для документа
             document = {
                 "_index": index_name,
                 "_id": str(doc.uuid),
