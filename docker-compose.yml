@@ -6,11 +6,6 @@ services:
     volumes:
       - ./skripts:/docker-entrypoint-initdb.d
     restart: always
-#    healthcheck:
-#      test: [ "CMD", "pg_isready", "-h", "postgres", "-p", "5432" ]
-#      interval: 10s
-#      timeout: 5s
-#      retries: 5
 
   elasticsearch:
     image: elasticsearch:8.14.3
@@ -23,29 +18,14 @@ services:
         reservations:
           cpus: '1.0'                # Зарезервировать 1 CPU
           memory: '2g'
-#    healthcheck:
-#      test: [ "CMD-SHELL", "curl --fail http://localhost:9200/_cluster/health || exit 1" ]
-#      interval: 20s
-#      timeout: 10s
-#      retries: 10
 
   app:
     build: .
     env_file:
       - ./.env
-#    deploy:
-#      resources:
-#        limits:
-#          cpus: '2'
-#          memory: 4G
     depends_on:
       - postgres
       - elasticsearch
-#    depends_on:
-#      elasticsearch:
-#        condition: service_healthy
-#      postgres:
-#        condition: service_healthy
 
 volumes:
   postgres_data:
