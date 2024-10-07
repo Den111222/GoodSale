@@ -1,0 +1,69 @@
+2024-10-07 17:53:02 2024-10-07 15:53:02,708 - root - INFO - Starting a data entry operation 2024-10-07 15:53:02.708413
+2024-10-07 17:53:02 2024-10-07 15:53:02,734 - root - INFO - Successfully connected to the database.
+2024-10-07 17:53:02 2024-10-07 15:53:02,734 - root - INFO - Start process 1. Parse_xml_and_save_db: 2024-10-07 15:53:02.734392
+2024-10-07 17:57:11 2024-10-07 15:57:11,429 - root - INFO - End process 1. Parse_xml_and_save_db: 2024-10-07 15:57:11.429386, duration: 0:04:08.694987
+2024-10-07 17:57:11 2024-10-07 15:57:11,436 - root - INFO - Successful connection to Elasticsearch 2024-10-07 15:57:11.436894
+2024-10-07 17:57:11 2024-10-07 15:57:11,437 - root - INFO - The test connection to elasticsearch was successful 2024-10-07 15:57:11.437056
+2024-10-07 17:57:11 2024-10-07 15:57:11,437 - root - INFO - Start process 2. Get data collection from db: 2024-10-07 15:57:11.437285
+2024-10-07 17:57:11 2024-10-07 15:57:11,438 - root - INFO - Successfully connected to the database.
+2024-10-07 17:57:34 2024-10-07 15:57:34,386 - root - INFO - End process 2. Get data collection from db: 2024-10-07 15:57:34.384379, duration: 0:00:22.946051
+2024-10-07 17:57:34 2024-10-07 15:57:34,389 - root - INFO - Start process 3. Data transformation: 2024-10-07 15:57:34.389720
+2024-10-07 17:57:34 2024-10-07 15:57:34,389 - root - INFO - End process 3. Data transformation: 2024-10-07 15:57:34.389790, duration: 0:00:00.000072
+2024-10-07 17:57:34 2024-10-07 15:57:34,389 - root - INFO - Start process 4. Data loading into elastic: 2024-10-07 15:57:34.389836
+2024-10-07 17:57:34 2024-10-07 15:57:34,414 - root - INFO - Successful connection to Elasticsearch 2024-10-07 15:57:34.414752
+2024-10-07 17:58:55 2024-10-07 15:58:55,534 - root - INFO - End process 4. Data loading into elastic: 2024-10-07 15:58:55.534689, duration: 0:01:21.144845
+2024-10-07 17:58:55 2024-10-07 15:58:55,534 - root - INFO - The entry of all data into elastic was successful in 2024-10-07 15:58:55.534955
+2024-10-07 17:58:56 2024-10-07 15:58:56,183 - root - INFO - Start process 5. Match similar and save db: 2024-10-07 15:58:56.183643
+2024-10-07 17:58:56 2024-10-07 15:58:56,195 - root - INFO - Successfully connected to the database.
+2024-10-07 17:59:18 2024-10-07 15:59:18,223 - root - INFO - Successful connection to Elasticsearch 2024-10-07 15:59:18.223307
+2024-10-07 18:00:32 2024-10-07 16:00:32,619 - root - INFO - save in db - 4800 elements
+2024-10-07 18:01:43 2024-10-07 16:01:43,167 - root - INFO - save in db - 4800 elements
+2024-10-07 18:02:46 2024-10-07 16:02:46,122 - root - INFO - save in db - 4800 elements
+2024-10-07 18:04:07 2024-10-07 16:04:07,861 - root - INFO - save in db - 4800 elements
+2024-10-07 18:05:19 2024-10-07 16:05:19,242 - root - INFO - save in db - 4800 elements
+2024-10-07 18:06:24 2024-10-07 16:06:24,047 - root - INFO - save in db - 4800 elements
+2024-10-07 18:07:21 2024-10-07 16:07:21,142 - root - INFO - save in db - 4800 elements
+2024-10-07 18:08:19 2024-10-07 16:08:19,622 - root - INFO - save in db - 4800 elements
+2024-10-07 18:09:21 2024-10-07 16:09:21,735 - root - INFO - save in db - 4800 elements
+2024-10-07 18:10:27 2024-10-07 16:10:27,864 - root - INFO - save in db - 4800 elements
+2024-10-07 18:11:33 2024-10-07 16:11:33,761 - root - INFO - save in db - 4800 elements
+2024-10-07 18:12:52 2024-10-07 16:12:52,419 - root - INFO - save in db - 4800 elements
+2024-10-07 18:13:59 2024-10-07 16:13:59,648 - root - INFO - save in db - 4800 elements
+2024-10-07 18:15:08 2024-10-07 16:15:08,437 - root - INFO - save in db - 4800 elements
+2024-10-07 18:16:20 2024-10-07 16:16:20,244 - root - INFO - save in db - 4800 elements
+2024-10-07 18:17:37 2024-10-07 16:17:37,541 - root - INFO - save in db - 4800 elements
+2024-10-07 18:18:43 2024-10-07 16:18:43,020 - root - INFO - save in db - 4800 elements
+2024-10-07 18:19:47 2024-10-07 16:19:47,151 - root - INFO - save in db - 4800 elements
+2024-10-07 18:20:47 2024-10-07 16:20:47,418 - root - INFO - save in db - 4800 elements
+2024-10-07 18:21:56 2024-10-07 16:21:56,941 - root - INFO - save in db - 4800 elements
+2024-10-07 18:23:14 2024-10-07 16:23:14,570 - root - INFO - save in db - 4800 elements
+2024-10-07 18:24:36 2024-10-07 16:24:36,455 - root - INFO - save in db - 4800 elements
+2024-10-07 18:25:50 2024-10-07 16:25:50,857 - root - INFO - save in db - 4800 elements
+2024-10-07 18:27:06 2024-10-07 16:27:06,731 - root - INFO - save in db - 4800 elements
+2024-10-07 18:28:18 2024-10-07 16:28:18,250 - root - INFO - save in db - 4800 elements
+2024-10-07 18:29:29 2024-10-07 16:29:29,544 - root - INFO - save in db - 4800 elements
+2024-10-07 18:30:32 2024-10-07 16:30:32,744 - root - INFO - save in db - 4800 elements
+2024-10-07 18:31:46 2024-10-07 16:31:46,028 - root - INFO - save in db - 4800 elements
+2024-10-07 18:32:55 2024-10-07 16:32:55,243 - root - INFO - save in db - 4800 elements
+2024-10-07 18:34:25 2024-10-07 16:34:25,744 - root - INFO - save in db - 4800 elements
+2024-10-07 18:36:01 2024-10-07 16:36:01,055 - root - INFO - save in db - 4800 elements
+2024-10-07 18:37:20 2024-10-07 16:37:20,529 - root - INFO - save in db - 4800 elements
+2024-10-07 18:38:37 2024-10-07 16:38:37,248 - root - INFO - save in db - 4800 elements
+2024-10-07 18:39:44 2024-10-07 16:39:44,058 - root - INFO - save in db - 4800 elements
+2024-10-07 18:41:04 2024-10-07 16:41:04,730 - root - INFO - save in db - 4800 elements
+2024-10-07 18:42:09 2024-10-07 16:42:09,935 - root - INFO - save in db - 4800 elements
+2024-10-07 18:43:34 2024-10-07 16:43:34,747 - root - INFO - save in db - 4800 elements
+2024-10-07 18:45:03 2024-10-07 16:45:03,740 - root - INFO - save in db - 4800 elements
+2024-10-07 18:46:34 2024-10-07 16:46:34,943 - root - INFO - save in db - 4800 elements
+2024-10-07 18:48:01 2024-10-07 16:48:01,348 - root - INFO - save in db - 4800 elements
+2024-10-07 18:49:27 2024-10-07 16:49:27,960 - root - INFO - save in db - 4800 elements
+2024-10-07 18:51:01 2024-10-07 16:51:01,052 - root - INFO - save in db - 4800 elements
+2024-10-07 18:52:32 2024-10-07 16:52:32,429 - root - INFO - save in db - 4800 elements
+2024-10-07 18:54:07 2024-10-07 16:54:07,959 - root - INFO - save in db - 4800 elements
+2024-10-07 18:55:39 2024-10-07 16:55:39,930 - root - INFO - save in db - 4800 elements
+2024-10-07 18:57:13 2024-10-07 16:57:13,560 - root - INFO - save in db - 4800 elements
+2024-10-07 18:58:46 2024-10-07 16:58:46,950 - root - INFO - save in db - 4800 elements
+2024-10-07 18:59:58 2024-10-07 16:59:58,533 - root - INFO - save in db - 4800 elements
+2024-10-07 19:00:21 2024-10-07 17:00:21,511 - root - INFO - End process 5. Match similar and save db: 2024-10-07 17:00:21.511888, duration: 1:01:25.328245
+2024-10-07 19:00:21 2024-10-07 17:00:21,512 - root - INFO - Finished a data entry operation 2024-10-07 17:00:21.512136
+

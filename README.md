@@ -100,3 +100,9 @@ create unique index sku_uuid_uindex
 - Написать сервис и провести “матчинг” через elasticsearch
 - Залить сервис в github/gitlab и прислать ссылку на проект
 - В readme.md файлик добавить 5-10 примеров uuid и similar_sku, которые получились после матчинга (в идеале - сделать join их с самими товарами, чтобы было понятно, что на что заматчилось)
+
+Результат:
+- Работа всего этого - [log.txt](helps%2Flog.txt)
+- Выгружены данные в elasticsearch - ![elastic.jpg](helps%2Felastic.jpg)
+- Результат сверки данных можно увидеть запустив скрипт - [result.sql](helps%2Fresult.sql)
+- Результат сверки мною запущенный - [Result_2.html](helps%2FResult_2.html)
